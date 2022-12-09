@@ -1,0 +1,111 @@
+
+  body{
+
+
+    background-color:#223544;
+
+
+  }
+
+
+ a {
+ color: #00ff29d4;
+ cursor: pointer;
+ text-decoration: underline;
+}
+
+
+           hr{
+             display:block;
+              background-color: inherit;
+             border: none;
+             border-top: 6px dotted #F2F2F2;
+
+
+             height: 2px;
+             width: 4%;
+
+
+
+
+
+        }
+h3{
+
+color: #fbff00;
+
+
+
+
+
+}
+h1{
+
+color: #c6f7e5;
+
+
+
+
+
+}
+h2{
+
+color: #c6f7e5;
+
+
+
+
+
+}
+p{
+color:#6bffcf;
+font-size: 19px;
+font-style: oblique;
+
+}
+li{
+color:#05ecee;
+}
+td{
+ color:#01ddfb;
+}
+h4{
+font-style: italic;
+color:pink;
+}
+h4 {
+ display: block;
+ margin-block-start: 0.3299999999999983em;
+ margin-block-end: 1.33em;
+ margin-inline-start: 124px;
+ margin-inline-end: 0px;
+ font-weight: bold;
+ font-size: 80px;
+}
+label{
+ font-style: italic;
+ font-weight: 900;
+ color:#23eaec;
+}
+::marker{
+color:white;
+font-size: 25px;
+}
+center{
+color:#ff76e5;
+}
+table {
+
+ tab-size: border= 8;
+ display: table;
+ border-collapse: separate;
+ border-width: thick;
+ box-sizing: border-box;
+ text-indent: initial;
+ border-spacing: 8px;
+ border-color: white;
+}
+mark {
+ background-color: #ff9f5b;
+ color: marktext;
+}
