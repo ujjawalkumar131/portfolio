@@ -54,13 +54,52 @@ color: #c6f7e5;
 
 
 
+}
+
+a:link{
+
+  color: #fbff00;
+
 
 
 }
+
+a.last{
+
+color: #B2FF33;
+
+}
+
+
+
+
+a:visited{
+
+color: #FF87B2;
+
+}
+
+
+a:hover{
+
+  color: #2192FF;
+  
+  }
+  
+
+
+
+
+
 p{
+  text-indent: 20px;
 color:#6bffcf;
 font-size: 19px;
 font-style: oblique;
+word-spacing: 4px;
+line-height: 25px;
+
+
 
 }
 li{
@@ -92,7 +131,7 @@ color:white;
 font-size: 25px;
 }
 center{
-color:#ff76e5;
+color:hsl(311, 100%, 73%);
 }
 table {
 
