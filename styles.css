@@ -42,6 +42,12 @@ color: #fbff00;
 h1{
 
 color: #c6f7e5;
+/*border-style: groove;
+border-radius: 6px;
+border-color: #fbff00;
+border-width: medium; 
+
+*/
 
 
 
@@ -59,14 +65,16 @@ color: #c6f7e5;
 a:link{
 
   color: #fbff00;
-
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 }
 
 a.last{
 
-color: #B2FF33;
+color: limegreen;
+font-size: 30px;
 
 }
 
@@ -85,6 +93,10 @@ a:hover{
   color: #2192FF;
   
   }
+
+  a:active{        /*click karke rakhne se color ayega */
+    color: coral;
+  }
   
 
 
@@ -92,7 +104,7 @@ a:hover{
 
 
 p{
-  text-indent: 20px;
+  
 color:#6bffcf;
 font-size: 19px;
 font-style: oblique;
@@ -102,6 +114,17 @@ line-height: 25px;
 
 
 }
+
+p.info{
+
+  text-indent: 30px;
+  word-break: keep-all;
+  
+
+}
+
+
+
 li{
 color:#05ecee;
 }
@@ -109,6 +132,11 @@ td{
  color:#01ddfb;
 }
 h4{
+
+border-style: groove;
+border-color: #fbff00; 
+border-radius: 6px;
+border-width: medium;
 font-style: italic;
 color:pink;
 }
@@ -145,6 +173,18 @@ table {
  border-color: white;
 }
 mark {
- background-color: #ff9f5b;
- color: marktext;
+ background-color: hsl(90, 33%, 99%);
+ color: black;
+ 
+ 
+
+}
+
+
+.branch{
+
+  font-weight: 350;
+   text-shadow: 2px 1px cyan,.5px 1px black;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
